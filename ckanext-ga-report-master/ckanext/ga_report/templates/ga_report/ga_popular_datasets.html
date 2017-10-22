@@ -1,0 +1,17 @@
+
+<div class="popular_datasets">
+    <div class="pull-right">
+        <a href="{{h.url_for(controller='ckanext.ga_report.controller:GaDatasetReport',action='read')}}" class="btn btn-primary">More popular datasets »</a>
+    </div>
+    <h2>Popular datasets</h2>
+    <h4>{{publisher.title}}</h4>
+    <ul>
+        {% for dataset,_,_ in datasets %}
+            <li>
+                <span>{{h.link_to(dataset.title, h.url_for(controller='package', action='read', id=dataset.name))}}</span>
+                    <div>{{h.truncate(dataset.notes, length=80, whole_word=True)}}</div>
+            </li>
+        {% endfor %}
+    </ul>
+
+ </div>

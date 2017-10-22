@@ -1,0 +1,21 @@
+*.egg
+*.egg-info
+.eggs
+
+*.pyc
+*.pyo
+
+.tox
+
+.coverage
+coverage/
+
+build
+dist/
+docs/_build
+
+# IDE users, please keep your data locally
+.idea/
+.project
+.pydevproject
+.settings

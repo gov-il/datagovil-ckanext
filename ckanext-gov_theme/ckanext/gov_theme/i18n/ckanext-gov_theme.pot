@@ -1,0 +1,1095 @@
+# Translations template for ckanext-gov_theme.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the ckanext-gov_theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-gov_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-03-27 12:06+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Transport"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Justice"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Energy Watter"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Environment"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Finance Economy"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Population"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Religion"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Education Culture"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Health Wellness"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Accommodation"
+msgstr ""
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Tourism"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid "#modernizr { height: 50vh; }"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid ""
+"#modernizr1{width: "
+"50vm;width:50vmin}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid "#modernizr { width: 50vw; }"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid ""
+"#modernizr1{width: "
+"50vmax}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}"
+msgstr ""
+
+#: ckanext/gov_theme/templates/footer.html:12
+msgid "About Gvoernment Data"
+msgstr ""
+
+#: ckanext/gov_theme/templates/footer.html:13
+msgid "Terms Of Use"
+msgstr ""
+
+#: ckanext/gov_theme/templates/footer.html:14
+msgid "Contact"
+msgstr ""
+
+#: ckanext/gov_theme/templates/footer.html:15
+msgid "Request Dataset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:14
+#: ckanext/gov_theme/templates/header.html:20
+#: ckanext/gov_theme/templates/header.html:37
+#: ckanext/gov_theme/templates/header.html:66
+msgid "Government Data"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:82
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:84
+msgid "Admin"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:89
+msgid "View profile"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:96
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ckanext/gov_theme/templates/header.html:99
+msgid "Dashboard"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:105
+#: ckanext/gov_theme/templates/user/dashboard.html:6
+msgid "Edit settings"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:107
+msgid "Settings"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:113
+#: ckanext/gov_theme/templates/header.html:115
+msgid "Log out"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:126
+msgid "Log in"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:181
+#: ckanext/gov_theme/templates/group/read_base.html:17
+#: ckanext/gov_theme/templates/organization/read_base.html:17
+#: ckanext/gov_theme/templates/package/search.html:4
+#: ckanext/gov_theme/templates/package/search.html:7
+#: ckanext/gov_theme/templates/snippets/organization.html:44
+#: ckanext/gov_theme/templates/user/read_base.html:19
+#: ckanext/gov_theme/templates/user/read_base.html:55
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:182
+#: ckanext/gov_theme/templates/organization/read_base.html:3
+#: ckanext/gov_theme/templates/organization/read_base.html:6
+msgid "Organizations"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:183
+#: ckanext/gov_theme/templates/group/read_base.html:21
+#: ckanext/gov_theme/templates/organization/read_base.html:21
+#: ckanext/gov_theme/templates/user/edit_user_form.html:15
+msgid "About"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:193
+msgid "Search Datasets"
+msgstr ""
+
+#: ckanext/gov_theme/templates/header.html:194
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:6
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:13
+msgid "Search"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:17
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:8
+msgid "Are you sure you want to reset the config?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:18
+msgid "Reset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:19
+msgid "Update Config"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:28
+msgid "CKAN config options"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:35
+#, python-format
+msgid ""
+" <p><strong>Site Title:</strong> This is the title of this CKAN instance It "
+"appears in various places throughout CKAN.</p> <p><strong>Style:</strong> "
+"Choose from a list of simple variations of the main colour scheme to get a "
+"very quick custom theme working.</p> <p><strong>Site Tag Logo:</strong> This "
+"is the logo that appears in the header of all the CKAN instance "
+"templates.</p> <p><strong>About:</strong> This text will appear on this CKAN "
+"instances <a href=\"%(about_url)s\">about page</a>.</p> <p><strong>Intro "
+"Text:</strong> This text will appear on this CKAN instances <a "
+"href=\"%(home_url)s\">home page</a> as a welcome to visitors.</p> "
+"<p><strong>Custom CSS:</strong> This is a block of CSS that appears in "
+"<code>&lt;head&gt;</code> tag of every page. If you wish to customize the "
+"templates more fully we recommend <a href=\"%(docs_url)s\" "
+"target=\"_blank\">reading the documentation</a>.</p> "
+"<p><strong>Homepage:</strong> This is for choosing a predefined layout for "
+"the modules that appear on your homepage.</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:3
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:11
+msgid "Confirm Reset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:10
+msgid "Cancel"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:8
+msgid "data.gov.il Data API"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:12
+msgid "Access resource data via a web API with powerful query support"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:17
+msgid "Endpoints"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:21
+msgid ""
+"The Data API can be accessed via the following actions of the data.gov.il "
+"action API."
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:27
+msgid "Query"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:31
+msgid "Query (via SQL)"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:43
+msgid "Querying"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:47
+msgid "Query example (first 5 results)"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:52
+msgid "Query example (results containing 'jones')"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:58
+msgid "Query example (via SQL statement)"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:70
+msgid "Example: Javascript"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:74
+msgid "A simple ajax (JSONP) request to the data API using jQuery."
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:95
+msgid "Example: Python"
+msgstr ""
+
+#: ckanext/gov_theme/templates/group/read_base.html:3
+#: ckanext/gov_theme/templates/group/read_base.html:6
+msgid "Groups"
+msgstr ""
+
+#: ckanext/gov_theme/templates/group/read_base.html:12
+#: ckanext/gov_theme/templates/organization/read_base.html:12
+#: ckanext/gov_theme/templates/package/resource_read.html:10
+#: ckanext/gov_theme/templates/user/read_base.html:14
+msgid "Manage"
+msgstr ""
+
+#: ckanext/gov_theme/templates/group/read_base.html:19
+#: ckanext/gov_theme/templates/organization/read_base.html:19
+#: ckanext/gov_theme/templates/package/read_base.html:6
+#: ckanext/gov_theme/templates/user/read_base.html:21
+msgid "Activity Stream"
+msgstr ""
+
+#: ckanext/gov_theme/templates/home/gov-layout.html:12
+msgid ""
+" <p><h2><b>משתמשי האתר יהנו מיד חופשית לפיתוח יישומים ומערכות המבוססות על "
+"מאגר הנתונים הממשלתי.</b></h2></p> <p>באתר data.gov.il מתפרסמים מאגרי מידע "
+"ממשלתיים באופן ברור ונגיש.</p> <p>המאגרים מתעדכנים באופן קבוע ורציף.</p> "
+"<p>מערכת המידע של Data.gov.il מאפשרת איתור והורדה של נתונים בקלות "
+"וביעילות.</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/home/gov-layout.html:38
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:20
+msgid "Popular tags"
+msgstr ""
+
+#: ckanext/gov_theme/templates/home/terms.html:3
+#: ckanext/gov_theme/templates/home/terms.html:6
+#: ckanext/gov_theme/templates/home/terms.html:16
+msgid "terms"
+msgstr ""
+
+#: ckanext/gov_theme/templates/home/snippets/about_text.html:1
+msgid ""
+" About The Data.gov.il website was established by the e-government as part of"
+" an \"open government\" policy, based on promoting the transparency and "
+"presentation of reliable government information authorized for public use. "
+"This policy is implemented in other advanced countries in the world, such as "
+"the United States, United Kingdom and Australia. In the Data.gov.il website, "
+"government databases are published clearly and accessibly and are "
+"continuously updated. The information system of Data.gov.il allows for quick "
+"and efficient location and downloading of data, subject to the Freedom of "
+"Information and Protection of Privacy Act. The Data.gov.il project was first "
+"developed following a decision by the Ministerial Committee on Improving "
+"Public Government Services and Open Government, on Monday, November 29, 2010."
+" The project's goal is to improve the service to the public and encourage the"
+" creative use of the public, the academia and of the government with the "
+"government databases. The Data.gov.il site provides its users the full "
+"freedom to develop applications and systems, based on the published "
+"information. All information updates to the databases will be automatically "
+"available to applications based on them. About E-government E-government is "
+"responsible for providing the services and information offered online to the "
+"public, in order to improve the communication between citizens and government"
+" institutions. E-government operates under the Prime Minister's office, under"
+" which operate the Gov.IL portal, Government Payment Service, Government "
+"Forms Service and more. "
+msgstr ""
+
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:3
+msgid "E.g. environment"
+msgstr ""
+
+#: ckanext/gov_theme/templates/home/snippets/terms_text.html:1
+msgid ""
+" <p><b><u> Terms of Use of the Data.gov.il Site </u></b></p> <p> This website"
+" (\"Site\") is managed and maintained by the Prime Minister's Office, the "
+"Government ICT Authority, E-Government Unit (\"Office\"). The Site displays "
+"data files accessed from the databases of government ministries, support "
+"units and other public bodies (\"Databases\"). Use of the Site is subject to "
+"the Terms of Use appearing on the <a href='www.gov.il'>www.gov.il</a> site "
+"(\"Terms of Use\"). </p> <p>Use of the Databases, as defined above, is not "
+"subject to the Terms of Use but to the User License set out below. If a "
+"different user license than the one set out below applies to any database, "
+"the license applying to the database shall prevail. Feel free to use the "
+"database any way you like, subject to the licensing terms.</p> <p><b><u> User"
+" License for Databases on the Data.gov.il Site </u></b></p> <p> Use of the "
+"Information is permitted solely in accordance with the terms of this License."
+" The Office may change the terms of this License at any time, and any such "
+"change shall become effective immediately when it is posted on the Site. Use "
+"of the Information shall be subject to the terms of the License as in effect "
+"at the date and time the Information was accessed from the database. </p> "
+"<p><b><u> Definitions </u></b></p> <p> In this license: </p> <p> \"Site\"  "
+"The Data.gov.il site. </p> <p> \"Information\"  A data file, or any part "
+"thereof, accessed from databases of government ministries, support units and "
+"other public bodies, which is displayed on the Site. </p> <p> \"use\"  Doing"
+" any act with the Information that is restricted by copyright law, including "
+"copying, distributing, making available to the public, creating derivative "
+"works and any change as may be necessary technically to use it in a different"
+" state or in a different format, regardless of the medium in which the "
+"Information is embodied.</p> <p> \"value-added product\"  Any product, "
+"service or application you have produced by adapting or incorporating the "
+"Information, in whole or in part, in accordance with the terms of this "
+"License. </p> <p> \"you\"  Includes any natural person or legal entity or "
+"corporate body. </p> <p> In this License  the masculine gender includes the "
+"feminine. </p> <p><b><u> Use of Information under this License </u></b></p> "
+"<p> The Information is protected by intellectual property rights, including "
+"copyrights, which are owned by the State of Israel. <p> Use of the "
+"information indicates your acceptance of the terms of this License, to the "
+"extent that such acceptance is required by law.This License grants you a "
+"worldwide, royalty-free, perpetual and non-exclusive license to use the "
+"Information subject to the terms and conditions below. </p> <p> This License "
+"does not derogate from the uses permitted by law, including fair use as well "
+"as the use of facts and figures in and of themselves in a manner that does "
+"not infringe the protection of the selection, coordination and arrangement of"
+" the data. </p> <p><b><u> Permitted Uses </u></b></p> <p> You may copy the "
+"Information, distribute it, make it available to the public, broadcast it, "
+"make technical changes to it and create derivative works from it  in any "
+"medium or format. </p> <p> You may make commercial and noncommercial use of "
+"the Information. </p> <p><b><u> Prohibited Uses </u></b></p> <p> You may not "
+"make the following use of the Information: </p> <ol> \t<li> present the "
+"information in a misleading manner and/or in a manner causing a "
+"misrepresentation and/or modify the Information in a manner that distorts it "
+"and/or in a manner which is or could be prejudicial to the honor or "
+"reputation of the owner of the copyright therein;</li> \t<li>make use of the"
+" Information in a manner that breaches any law or statute;</li> \t<li>make "
+"use of the Information in a manner that infringes a person's privacy, "
+"including by cross-referencing the Information with other sources of "
+"information;</li> \t<li>present the information in a manner that gives the "
+"appearance that you may have received, or had access to, information held by "
+"the State of Israel about any identifiable person.</li> </ol> "
+"<p><b><u>Attribution of the Information</u></b></p> <p>When using the "
+"Information, you must cite its source.</p> <p>It should be noted that when "
+"using data extracted from the Information in a manner that does not preserve "
+"the original aspect of the selection or arrangement of the data in the "
+"source, there is no need to cite the source of the Information.</p> "
+"<p><b><u>Scope of this License</u></b></p> <p>This License does not apply "
+"to:</p> <ol> \t<li>Data on the personality, personal status, intimate "
+"affairs, state of health, economic condition, vocational qualifications, "
+"opinions and beliefs of a person, as well as information about a person's "
+"private affairs, all the above within the meaning of the Protection of "
+"Privacy Law, 5741-1981.</li> <li>Information forbidden for publication and/or"
+" access by law, or obtained illegally or without permission, including by "
+"circumventing technological means meant to protect it;</li> \t<li>logos of "
+"the State of Israel and any government ministry, support unit or other public"
+" body, except where they form an integral part of a document;</li> \t"
+"<li>third party rights in the Information which the Office is not permitted "
+"to make available to the public under this License;</li> \t<li>rights other "
+"than copyright, including other intellectual property rights such as patents,"
+" trademarks and designs, and including rights under the Protection of Privacy"
+" Law;</li> <li>Any technological means, including software and applications, "
+"by which the Site functions.</li> </ol> <p><b><u>Copyright in Added-Value "
+"Products </u></b></p> <p>Copyright in value-added products shall be owned by "
+"you or by anyone you designate. However, if information used under this "
+"License is incorporated in a value-added product, any copyright in that "
+"information shall belong to the State of Israel, and the use of such "
+"information shall be subject to this User License.</p> <p><b><u>No "
+"Endorsement or Sponsorship</u></b></p> <p>This License does not grant you any"
+" right to use the Information in a way that implies or suggests any official "
+"status of such use or that the State of Israel sponsors or endorses you or "
+"any third party or your or any third party's use of the Information or any "
+"value-added product.</p> <p><b><u>Representations and Disclaimer</u></b></p> "
+"<p>The Information is made available to you under this License \"as is,\" "
+"without any representation, warranty or undertaking, whether explicit or "
+"implied, in relation to the Information. It is hereby expressly declared that"
+" the State of Israel does not guarantee the suitability of the Information "
+"for your use, either directly or in value-added products.</p> <p>The State of"
+" Israel is not liable for any damage caused to you or to any third party as a"
+" direct or indirect result of any act or omission involved in the use of the "
+"Information. For purposes of this section, \"State of Israel\" includes the "
+"Office as well as employees, representatives and service providers of the "
+"State.</p> <p>Without limiting the generality of the foregoing, the State of "
+"Israel shall not be liable:</p> <ol> \t<li>for any error or omission in the "
+"Information, and it shall not be held liable for any loss, injury or damage "
+"of any kind, whether direct or indirect, caused by its use to you or to any "
+"third party;</li> <li>for changes made to the Information by you or by any "
+"third party;</li> \t<li>to third parties, pursuant to use of the "
+"Information;</li> \t<li>for any damage caused due to the use of software "
+"applications downloaded directly through the Site or activated as a result of"
+" the use of the Site, including Internet applications (e.g. Java, JavaScript,"
+" ActiveX).</li> </ol> <p>The State of Israel does not guarantee or undertake "
+"to ensure the continued supply of the Information or the continued supply "
+"thereof in a certain format.</p> <p>The State of Israel reserves the right to"
+" remove information from the Site at any time.</p> <p><b><u> Breach "
+"</u></b></p> <p>Breach by you of this License shall result in immediate "
+"termination. Conditions which by their nature survive the termination of the "
+"License, shall continue to apply, including conditions regarding attribution "
+"of the Information, representations and disclaimer.</p> <p><b><u> Official "
+"Publications of the State of Israel </u></b></p> <p> In the event of a "
+"conflict or inconsistency between the Information and information appearing "
+"in official written publications of the State of Israel, only the material "
+"contained in such official publications shall be deemed correct.</p> "
+"<p><b><u> Governing Law and Venue </u></b></p> <p> This License is subject to"
+" the laws and statutes of the State of Israel. The courts in Jerusalem have "
+"exclusive jurisdiction to consider any issue arising from the use of this "
+"License, including with respect to its violation. </p> <p><b><u> "
+"Miscellaneous </u></b></p> <p> No party to this License shall be deemed to "
+"have waived fulfillment or consented to the breach of any of its conditions, "
+"unless the consent or waiver are made in writing by the persons by law to "
+"bind that party. </p> <p> This License covers all the rights granted to you "
+"in relation to the Information on the Office Site, except for exclusions and "
+"limitations prescribed by law, including fair use. </p> <p>&nbsp; </p> "
+"<p>&nbsp; </p> <p>Version 1.0 </p> <p>January 3, 2016</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:11
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:32
+msgid "Name"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:11
+msgid "My Organization"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:19
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:28
+msgid "URL"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:19
+msgid "my-organization"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:21
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:36
+msgid "Description"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:21
+msgid "A little information about my organization..."
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:36
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:49
+msgid "Custom Field"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:61
+msgid ""
+"Are you sure you want to delete this Organization? This will delete all the "
+"public and private datasets belonging to this organization."
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:62
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:41
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:70
+#: ckanext/gov_theme/templates/user/edit_user_form.html:39
+msgid "Delete"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:65
+msgid "Save Organization"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/read_base.html:4
+msgid "Dataset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:13
+msgid "Report"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:14
+msgid "Broken link report"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:19
+#: ckanext/gov_theme/templates/package/resource_views.html:4
+msgid "View"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:21
+msgid "API Endpoint"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:23
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:49
+msgid "Go to resource"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:25
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:46
+msgid "Download"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:58
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:26
+msgid "There are no views created for this resource yet."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:59
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:27
+msgid "The resource can be downloaded by clicking on 'Link to file'."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:64
+msgid "Not seeing the views you were expecting?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:66
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:30
+msgid "Click here for more information."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:69
+msgid "Here are some reasons you may not be seeing expected views:"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:71
+msgid "No view has been created that is suitable for this resource"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:72
+msgid "The site administrators may not have enabled the relevant view plugins"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:73
+msgid ""
+"If a view requires the DataStore, the DataStore plugin may not be enabled, or"
+" the data may not have been pushed to the DataStore, or the DataStore hasn't "
+"finished processing the data yet"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:85
+msgid "Link to file"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_views.html:10
+msgid "New view"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_views.html:28
+msgid "This resource has no views"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:16
+msgid "Add Dataset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:29
+msgid "Relevance"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:30
+#: ckanext/gov_theme/templates/snippets/search_form.html:4
+msgid "Name Ascending"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:31
+#: ckanext/gov_theme/templates/snippets/search_form.html:4
+msgid "Name Descending"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:32
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:55
+msgid "Last Modified"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:33
+msgid "Popular"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:52
+msgid "API"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:53
+msgid "API Docs"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:55
+msgid "full {format} dump"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:56
+#, python-format
+msgid ""
+" You can also access this registry using the API (see %(api_doc_link)s) or "
+"download a %(dump_link)s. "
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:60
+#, python-format
+msgid " You can also access this registry using the API (see %(api_doc_link)s). "
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:2
+msgid "Additional Info"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:6
+msgid "Field"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:7
+msgid "Value"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:14
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:6
+msgid "Source"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:25
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:30
+msgid "Author"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:37
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:42
+msgid "Maintainer"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:49
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:10
+msgid "Version"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:56
+#: ckanext/gov_theme/templates/user/read_base.html:93
+msgid "State"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:62
+msgid "Last Updated"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:70
+msgid "Created"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/info.html:27
+#: ckanext/gov_theme/templates/snippets/organization.html:40
+#: ckanext/gov_theme/templates/user/read_base.html:51
+msgid "Followers"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:29
+msgid ""
+"The <i>data license</i> you select above only applies to the contents of any "
+"resource files that you add to this dataset. By submitting this form, you "
+"agree to release the <i>metadata</i> values that you enter into the form "
+"under the <a href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open "
+"Database License</a>."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:40
+msgid "Are you sure you want to delete this dataset?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:45
+msgid "Next: Add Data"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:6
+msgid "http://example.com/dataset.json"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:10
+msgid "1.0"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:14
+msgid "Author Email"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:14
+#: ckanext/gov_theme/templates/user/new_user_form.html:8
+msgid "joe@example.com"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:28
+msgid "File"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:32
+msgid "eg. January 2011 Gold Prices"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:36
+msgid "Some useful notes about the data"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:41
+msgid "Format"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:41
+msgid "eg. CSV, XML or JSON"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:44
+msgid "This will be guessed automatically. Leave blank if you wish"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:55
+msgid "eg. 2012-06-05"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:57
+msgid "File Size"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:57
+msgid "eg. 1024"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:59
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:61
+msgid "MIME Type"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:59
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:61
+msgid "eg. application/json"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:69
+msgid "Are you sure you want to delete this resource?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:76
+msgid "Previous"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:79
+msgid "Save & add another"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:82
+msgid "Finish"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:86
+msgid "Add"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:24
+msgid "Explore"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:33
+msgid "Preview"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:36
+msgid "More information"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:58
+msgid "Edit"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:11
+msgid "Embed"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:25
+msgid "This resource view is not available at the moment."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:38
+msgid "Download resource"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:61
+msgid "Your browser does not support iframes."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:68
+msgid "Embed resource view"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:71
+msgid ""
+"You can copy and paste the embed code into a CMS or blog software that "
+"supports raw HTML"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:74
+msgid "Width"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:77
+msgid "Height"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:80
+msgid "Code"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/facet_list.html:80
+msgid "Show More {facet_type}"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/facet_list.html:83
+msgid "Show Only Popular {facet_type}"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/facet_list.html:87
+msgid "There are no {facet_type} that match this search"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/follow_button.html:11
+msgid "Unfollow"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/follow_button.html:16
+msgid "Follow"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/organization.html:6
+msgid "Organization"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/organization.html:20
+msgid "Deleted"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/organization.html:28
+msgid "read more"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/organization.html:31
+msgid "There is no description for this organization"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:3
+msgid "Search datasets..."
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:18
+msgid "Submit"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:33
+msgid "Order by"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:42
+msgid "Go"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:67
+msgid "Remove"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:72
+msgid "Filter Results"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:79
+msgid " <p class=\"extra\">Please try another search.</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:85
+msgid ""
+" <p><strong>There was an error while searching.</strong> Please try "
+"again.</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/social.html:5
+msgid "Social"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/dashboard.html:9
+msgid "News feed"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/dashboard.html:10
+msgid "My Datasets"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/dashboard.html:11
+msgid "My Organizations"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:8
+msgid "Change details"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:9
+#: ckanext/gov_theme/templates/user/new_user_form.html:6
+#: ckanext/gov_theme/templates/user/read_base.html:78
+msgid "Username"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:11
+msgid "Full name"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:11
+msgid "eg. Joe Bloggs"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:13
+#: ckanext/gov_theme/templates/user/new_user_form.html:8
+#: ckanext/gov_theme/templates/user/read_base.html:84
+msgid "Email"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:13
+msgid "eg. joe@example.com"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:15
+msgid "A little information about yourself"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:18
+msgid "Subscribe to notification emails"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:27
+msgid "Change password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:28
+msgid "Old Password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:30
+#: ckanext/gov_theme/templates/user/new_user_form.html:9
+msgid "Password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:32
+msgid "Confirm Password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:38
+msgid "Are you sure you want to delete this User?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:44
+msgid "Are you sure you want to regenerate the API key?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:45
+msgid "Regenerate API Key"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:49
+msgid "Update Profile"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/login.html:9
+msgid "Forgotten your password?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/login.html:11
+msgid "No problem, use our password recovery form to reset it."
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/login.html:14
+msgid "Forgot your password?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:6
+msgid "username"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:7
+msgid "Full Name"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:7
+msgid "Joe Bloggs"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:10
+msgid "Confirm"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:18
+msgid "Create Account"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:5
+#: ckanext/gov_theme/templates/user/read_base.html:8
+msgid "Users"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:41
+msgid "You have not provided a biography."
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:43
+msgid "This user has no biography."
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:59
+msgid "Edits"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:75
+msgid "Open ID"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:84
+#: ckanext/gov_theme/templates/user/read_base.html:98
+msgid "This means only you can see this"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:84
+#: ckanext/gov_theme/templates/user/read_base.html:98
+msgid "Private"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:89
+msgid "Member Since"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:98
+msgid "API Key"
+msgstr ""
+

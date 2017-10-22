@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+ckanext/__init__.py
+ckanext/officedocs/__init__.py
+ckanext/officedocs/plugin.py
+ckanext/officedocs/templates/officedocs/form.html
+ckanext/officedocs/templates/officedocs/preview.html
+ckanext/officedocs/tests/__init__.py
+ckanext/officedocs/tests/test_plugin.py
+ckanext_officedocs.egg-info/PKG-INFO
+ckanext_officedocs.egg-info/SOURCES.txt
+ckanext_officedocs.egg-info/dependency_links.txt
+ckanext_officedocs.egg-info/entry_points.txt
+ckanext_officedocs.egg-info/top_level.txt

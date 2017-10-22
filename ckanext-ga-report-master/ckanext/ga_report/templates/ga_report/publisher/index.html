@@ -1,0 +1,76 @@
+{% extends "page.html" %}
+{% import "/ga_report/ga_util_jinja.html" as m with context %}
+
+{% block title %}Usage by Publisher - {{ super() }}{% endblock %}
+
+
+{% block optional_head %}
+    <link rel="stylesheet" type="text/css" href="/scripts/vendor/rickshaw.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/ga_report.css?1"/>
+    <script type="text/javascript" src="/scripts/modernizr-2.6.2.custom.js"></script>
+    <script type="text/javascript" src="/scripts/ckanext_ga_reports.js?1"></script>
+    <script type="text/javascript" src="/scripts/vendor/jquery.sparkline.modified.js"></script>
+    <script type="text/javascript" src="/scripts/rickshaw_ie7_shim.js"></script>
+    <script type="text/javascript" src="/scripts/vendor/d3.v2.js"></script>
+    <script type="text/javascript" src="/scripts/vendor/d3.layout.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor/rickshaw.min.js"></script>
+{% endblock %}
+
+{% block breadcrumb_content %}
+    <li><a href="/data/site-usage">Site Analytics</a></li>
+    <li><a href="/data/site-usage/publisher">Publishers</a></li>
+{% endblock %}
+
+{% block primary_content_inner %}
+  <div>
+    {% set download_link=h.url_for(controller='ckanext.ga_report.controller:GaDatasetReport',action='publisher_csv',month=c.month or 'all') %}
+    <a class="btn button btn-primary btn-sm pull-right" href="{{download_link}}"><i class="icon-download"></i>&nbsp; Download as CSV</a>
+    <h1>Site Usage</h1>
+
+    <div class="row" style="background: #fff;">
+      <div class="col-md-4">
+        <div class="whitebox">
+          <strong>Graph Legend</strong>
+          <div id="graph-legend-container">
+            <div style="display: none;" id="legend_none">(No graph is loaded)</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="whitebox">
+          <strong>Publishers</strong>
+           {{m.rickshaw_graph(c.top_publishers_graph,'publishers')}}
+       </div>
+      </div>
+    </div>
+
+       <hr/>
+       <form class="form-inline" action="{{h.url_for(controller='ckanext.ga_report.controller:GaDatasetReport',action='publishers')}}" method="get">
+          <div class="controls">
+            <h2 class="ga-reports-heading">Statistics for</h2>
+              {{m.month_selector(c.month, c.months, c.day)}}
+          </div>
+       </form>
+
+     <table class="ga-reports-table table table-condensed table-bordered table-striped">
+       <tr>
+         <th>Publisher</th>
+         <th class="td-numeric">Dataset Views</th>
+       </tr>
+       {% for publisher, views, visits in c.top_publishers %}
+        <tr>
+          <td>
+              {{h.link_to(publisher.title, h.url_for(controller='ckanext.ga_report.controller:GaDatasetReport', action='read_publisher', id=publisher.name) + (("?month=" + c.month) if c.month else ''))}}
+          </td>
+          <td class="td-numeric">{{views}}</td>
+        </tr>
+        {% endfor %}
+     </table>
+  </div><!--/content-->
+
+    <script type="text/javascript">
+      $(function() {
+        CKAN.GA_Reports.bind_month_selector();
+      });
+    </script>
+{% endblock %}

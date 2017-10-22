@@ -1,0 +1,1251 @@
+# Hebrew translations for ckanext-gov_theme.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the ckanext-gov_theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-gov_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-03-27 12:06+0300\n"
+"PO-Revision-Date: 2015-11-22 15:52+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: he <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Transport"
+msgstr "תחבורה"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Justice"
+msgstr "משפט"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Energy Watter"
+msgstr "אנרגיה ומים"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Environment"
+msgstr "סביבה"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Finance Economy"
+msgstr "אוצר וכלכלה"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Population"
+msgstr "אוכלוסיה"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Religion"
+msgstr "דת"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Education Culture"
+msgstr "חינוך ותרבות"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Health Wellness"
+msgstr "בריאות ורווחה"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Accommodation"
+msgstr "דיור"
+
+#: ckanext/gov_theme/plugin.py:23
+msgid "Tourism"
+msgstr "תיירות"
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid "#modernizr { height: 50vh; }"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid ""
+"#modernizr1{width: "
+"50vm;width:50vmin}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid "#modernizr { width: 50vw; }"
+msgstr ""
+
+#: ckanext/gov_theme/fanstatic/modernizr-custom.js:3
+msgid ""
+"#modernizr1{width: "
+"50vmax}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}"
+msgstr ""
+
+#: ckanext/gov_theme/templates/footer.html:12
+msgid "About Gvoernment Data"
+msgstr "אודות המאגר הממשלתי"
+
+#: ckanext/gov_theme/templates/footer.html:13
+msgid "Terms Of Use"
+msgstr "תנאי שימוש"
+
+#: ckanext/gov_theme/templates/footer.html:14
+msgid "Contact"
+msgstr "צור קשר"
+
+#: ckanext/gov_theme/templates/footer.html:15
+msgid "Request Dataset"
+msgstr "בקשה למאגר"
+
+#: ckanext/gov_theme/templates/header.html:14
+#: ckanext/gov_theme/templates/header.html:20
+#: ckanext/gov_theme/templates/header.html:37
+#: ckanext/gov_theme/templates/header.html:66
+msgid "Government Data"
+msgstr "אתר מאגרי המידע הממשלתיים"
+
+#: ckanext/gov_theme/templates/header.html:82
+msgid "Sysadmin settings"
+msgstr "הגדרות מנהל מערכת"
+
+#: ckanext/gov_theme/templates/header.html:84
+msgid "Admin"
+msgstr "מנהל"
+
+#: ckanext/gov_theme/templates/header.html:89
+msgid "View profile"
+msgstr "הצג פרופיל"
+
+#: ckanext/gov_theme/templates/header.html:96
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ckanext/gov_theme/templates/header.html:99
+msgid "Dashboard"
+msgstr "ממשק ניהול"
+
+#: ckanext/gov_theme/templates/header.html:105
+#: ckanext/gov_theme/templates/user/dashboard.html:6
+msgid "Edit settings"
+msgstr "ערוך הגדרות"
+
+#: ckanext/gov_theme/templates/header.html:107
+msgid "Settings"
+msgstr "הגדרות"
+
+#: ckanext/gov_theme/templates/header.html:113
+#: ckanext/gov_theme/templates/header.html:115
+msgid "Log out"
+msgstr "התנתק"
+
+#: ckanext/gov_theme/templates/header.html:126
+msgid "Log in"
+msgstr "התחבר"
+
+#: ckanext/gov_theme/templates/header.html:181
+#: ckanext/gov_theme/templates/group/read_base.html:17
+#: ckanext/gov_theme/templates/organization/read_base.html:17
+#: ckanext/gov_theme/templates/package/search.html:4
+#: ckanext/gov_theme/templates/package/search.html:7
+#: ckanext/gov_theme/templates/snippets/organization.html:44
+#: ckanext/gov_theme/templates/user/read_base.html:19
+#: ckanext/gov_theme/templates/user/read_base.html:55
+msgid "Datasets"
+msgstr "מאגרי מידע"
+
+#: ckanext/gov_theme/templates/header.html:182
+#: ckanext/gov_theme/templates/organization/read_base.html:3
+#: ckanext/gov_theme/templates/organization/read_base.html:6
+msgid "Organizations"
+msgstr "ארגונים"
+
+#: ckanext/gov_theme/templates/header.html:183
+#: ckanext/gov_theme/templates/group/read_base.html:21
+#: ckanext/gov_theme/templates/organization/read_base.html:21
+#: ckanext/gov_theme/templates/user/edit_user_form.html:15
+msgid "About"
+msgstr "אודות"
+
+#: ckanext/gov_theme/templates/header.html:193
+msgid "Search Datasets"
+msgstr "מאגרי מידע"
+
+#: ckanext/gov_theme/templates/header.html:194
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:6
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:13
+msgid "Search"
+msgstr "חפש"
+
+#: ckanext/gov_theme/templates/admin/config.html:17
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:8
+msgid "Are you sure you want to reset the config?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:18
+msgid "Reset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:19
+msgid "Update Config"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:28
+msgid "CKAN config options"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/config.html:35
+#, python-format
+msgid ""
+" <p><strong>Site Title:</strong> This is the title of this CKAN instance "
+"It appears in various places throughout CKAN.</p> "
+"<p><strong>Style:</strong> Choose from a list of simple variations of the"
+" main colour scheme to get a very quick custom theme working.</p> "
+"<p><strong>Site Tag Logo:</strong> This is the logo that appears in the "
+"header of all the CKAN instance templates.</p> <p><strong>About:</strong>"
+" This text will appear on this CKAN instances <a "
+"href=\"%(about_url)s\">about page</a>.</p> <p><strong>Intro "
+"Text:</strong> This text will appear on this CKAN instances <a "
+"href=\"%(home_url)s\">home page</a> as a welcome to visitors.</p> "
+"<p><strong>Custom CSS:</strong> This is a block of CSS that appears in "
+"<code>&lt;head&gt;</code> tag of every page. If you wish to customize the"
+" templates more fully we recommend <a href=\"%(docs_url)s\" "
+"target=\"_blank\">reading the documentation</a>.</p> "
+"<p><strong>Homepage:</strong> This is for choosing a predefined layout "
+"for the modules that appear on your homepage.</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:3
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:11
+msgid "Confirm Reset"
+msgstr ""
+
+#: ckanext/gov_theme/templates/admin/confirm_reset.html:10
+msgid "Cancel"
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:8
+msgid "data.gov.il Data API"
+msgstr "ה-API של נתוני data.gov.il"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:12
+msgid "Access resource data via a web API with powerful query support"
+msgstr "גשו למשאג מידע דרך API מקוון עם תמיכה בשאילתות מורכבות"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:17
+msgid "Endpoints"
+msgstr "נקודות קצה"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:21
+msgid ""
+"The Data API can be accessed via the following actions of the data.gov.il"
+" action API."
+msgstr "נתוני המדיע יכולים להתקבל באמצעות הפעולות הבאות של ה-API"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:27
+msgid "Query"
+msgstr "שאילתא"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:31
+msgid "Query (via SQL)"
+msgstr "שאילתא באמצעות SQL"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:43
+msgid "Querying"
+msgstr "ביצוע שאילתא"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:47
+msgid "Query example (first 5 results)"
+msgstr "דוגמא לשאילתא (5 תוצאות ראשונות)"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:52
+msgid "Query example (results containing 'jones')"
+msgstr "דוגמא לשאילתא (תוצאות שכוללות 'JONES'"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:58
+msgid "Query example (via SQL statement)"
+msgstr "דוגמא לשאילתא באמצעות SQL"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:70
+msgid "Example: Javascript"
+msgstr "דוגמא: Javascript"
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:74
+msgid "A simple ajax (JSONP) request to the data API using jQuery."
+msgstr ""
+
+#: ckanext/gov_theme/templates/ajax_snippets/api_info.html:95
+msgid "Example: Python"
+msgstr "דוגמא: Python"
+
+#: ckanext/gov_theme/templates/group/read_base.html:3
+#: ckanext/gov_theme/templates/group/read_base.html:6
+msgid "Groups"
+msgstr ""
+
+#: ckanext/gov_theme/templates/group/read_base.html:12
+#: ckanext/gov_theme/templates/organization/read_base.html:12
+#: ckanext/gov_theme/templates/package/resource_read.html:10
+#: ckanext/gov_theme/templates/user/read_base.html:14
+msgid "Manage"
+msgstr "נהל"
+
+#: ckanext/gov_theme/templates/group/read_base.html:19
+#: ckanext/gov_theme/templates/organization/read_base.html:19
+#: ckanext/gov_theme/templates/package/read_base.html:6
+#: ckanext/gov_theme/templates/user/read_base.html:21
+msgid "Activity Stream"
+msgstr "פעיליות אחרונות"
+
+#: ckanext/gov_theme/templates/home/gov-layout.html:12
+#, fuzzy
+#| msgid "" " <p><h2><b>משתמשי האתר יהנו מיד חופשית
+#| לפיתוח יישומים ומערכות המבוססות על" " מאגק
+#| הנתונים הממשלתי.</b></h2></p> <p>באתר data.gov.il
+#| מתפרסמים מאגרי " "מידע ממשלתיים באופן ברור
+#| ונגיש.</p> <p>המאגרים מתעדכנים באופן קבוע "
+#| "ורציף.</p> <p>מערכת המידע של Data.gov.il מאפשרת
+#| איתור והורדה של נתונים " "בקלות
+#| וביעילות.</p> "
+msgid ""
+" <p><h2><b>משתמשי האתר יהנו מיד חופשית לפיתוח יישומים ומערכות המבוססות על"
+" מאגר הנתונים הממשלתי.</b></h2></p> <p>באתר data.gov.il מתפרסמים מאגרי "
+"מידע ממשלתיים באופן ברור ונגיש.</p> <p>המאגרים מתעדכנים באופן קבוע "
+"ורציף.</p> <p>מערכת המידע של Data.gov.il מאפשרת איתור והורדה של נתונים "
+"בקלות וביעילות.</p> "
+msgstr ""
+" <p><h2><b>משתמשי האתר יהנו מיד חופשית לפיתוח יישומים ומערכות המבוססות על"
+" מאגק הנתונים הממשלתי.</b></h2></p> <p>באתר data.gov.il מתפרסמים מאגרי "
+"מידע ממשלתיים באופן ברור ונגיש.</p> <p>המאגרים מתעדכנים באופן קבוע "
+"ורציף.</p> <p>מערכת המידע של Data.gov.il מאפשרת איתור והורדה של נתונים "
+"בקלות וביעילות.</p> "
+
+#: ckanext/gov_theme/templates/home/gov-layout.html:38
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:20
+msgid "Popular tags"
+msgstr "תגיות פופולאריות"
+
+#: ckanext/gov_theme/templates/home/terms.html:3
+#: ckanext/gov_theme/templates/home/terms.html:6
+#: ckanext/gov_theme/templates/home/terms.html:16
+msgid "terms"
+msgstr "תנאי שימוש"
+
+#: ckanext/gov_theme/templates/home/snippets/about_text.html:1
+msgid ""
+" About The Data.gov.il website was established by the e-government as "
+"part of an \"open government\" policy, based on promoting the "
+"transparency and presentation of reliable government information "
+"authorized for public use. This policy is implemented in other advanced "
+"countries in the world, such as the United States, United Kingdom and "
+"Australia. In the Data.gov.il website, government databases are published"
+" clearly and accessibly and are continuously updated. The information "
+"system of Data.gov.il allows for quick and efficient location and "
+"downloading of data, subject to the Freedom of Information and Protection"
+" of Privacy Act. The Data.gov.il project was first developed following a "
+"decision by the Ministerial Committee on Improving Public Government "
+"Services and Open Government, on Monday, November 29, 2010. The project's"
+" goal is to improve the service to the public and encourage the creative "
+"use of the public, the academia and of the government with the government"
+" databases. The Data.gov.il site provides its users the full freedom to "
+"develop applications and systems, based on the published information. All"
+" information updates to the databases will be automatically available to "
+"applications based on them. About E-government E-government is "
+"responsible for providing the services and information offered online to "
+"the public, in order to improve the communication between citizens and "
+"government institutions. E-government operates under the Prime Minister's"
+" office, under which operate the Gov.IL portal, Government Payment "
+"Service, Government Forms Service and more. "
+msgstr ""
+"<p><b>מה זה data.gov.il? </b></p><p>data.gov.il מרכז מאגרי נתונים מכלל "
+"משרדי הממשלה הפתוחים לשימוש הציבור. האתר מאפשר חיפוש נתונים בקלות "
+"וביעילות. המשתמשים ב- data.gov.il מקבלים יד חופשית לפיתוח יישומים ומערכות"
+" המבוססות על המידע המפורסם בו וכל עדכון במאגרי המידע באתר מעודכן אוטומטית"
+" גם ביישומים המבוססים עליו. </p><p><b>איזה מידע זמין באתר? "
+"</b></p><p>כיום ניתן למצוא באתר מאגרי מידע של משרדי ממשלה מרכזיים וכמה "
+"רשויות מרכזיות. המאגרים הם בנושא דיור, תחבורה, מזג אוויר, תקציב המדינה "
+"ועוד. </p><p><b>האתר המחודש</b></p><p>האתר חודש לאחרונה ומציג מאגרי מידע "
+"ממשלתיים בפורטל קוד פתוח, בטכנולוגיה המובילה בעולם בתחום - תשתית CKAN. "
+"CKAN היא מערכת רבת עוצמה לניהול נתונים שהופכת את הנתונים נגישים לכל על "
+"ידי מתן כלים לייעול פרסום, שיתוף, חיפוש ושימוש. </p><p><b>כיצד ניתן "
+"להשתמש במידע המופיע באתר? </b></p><p>המשתמשים ב- data.gov.il מקבלים יד "
+"חופשית לפיתוח יישומים ומערכות המבוססות על המידע המפורסם בו וכל עדכון "
+"במאגרי המידע באתר מעודכן אוטומטית גם ביישומים המבוססים עליו. "
+"</p><p><b>קצת על ממשל זמין </b></p><p>יחידת ממשל זמין ברשות התקשוב, משרד "
+"ראש הממשלה, הקימה את אתר data.gov.il בכדי להציג מידע ממשלתי אמין ומוסמך "
+"לשימוש הציבור הרחב, זאת כחלק ממדיניות ממשל פתוח המקדמת שקיפות מצד משרדי "
+"הממשלה. </p><p>ועדת השרים לעניין שיפור השירות הממשלתי לציבור, החליטה בשנת"
+" 2010 על פיתוח פרויקט data.gov.il במטרה לקדם את מדיניות <b>הממשל "
+"הפתוח</b> בישראל. </p>"
+
+#: ckanext/gov_theme/templates/home/snippets/gov-search.html:3
+msgid "E.g. environment"
+msgstr "חפש מאגר"
+
+#: ckanext/gov_theme/templates/home/snippets/terms_text.html:1
+msgid ""
+" <p><b><u> Terms of Use of the Data.gov.il Site </u></b></p> <p> This "
+"website (\"Site\") is managed and maintained by the Prime Minister's "
+"Office, the Government ICT Authority, E-Government Unit (\"Office\"). The"
+" Site displays data files accessed from the databases of government "
+"ministries, support units and other public bodies (\"Databases\"). Use of"
+" the Site is subject to the Terms of Use appearing on the <a "
+"href='www.gov.il'>www.gov.il</a> site (\"Terms of Use\"). </p> <p>Use of "
+"the Databases, as defined above, is not subject to the Terms of Use but "
+"to the User License set out below. If a different user license than the "
+"one set out below applies to any database, the license applying to the "
+"database shall prevail. Feel free to use the database any way you like, "
+"subject to the licensing terms.</p> <p><b><u> User License for Databases "
+"on the Data.gov.il Site </u></b></p> <p> Use of the Information is "
+"permitted solely in accordance with the terms of this License. The Office"
+" may change the terms of this License at any time, and any such change "
+"shall become effective immediately when it is posted on the Site. Use of "
+"the Information shall be subject to the terms of the License as in effect"
+" at the date and time the Information was accessed from the database. "
+"</p> <p><b><u> Definitions </u></b></p> <p> In this license: </p> <p> "
+"\"Site\"  The Data.gov.il site. </p> <p> \"Information\"  A data file, "
+"or any part thereof, accessed from databases of government ministries, "
+"support units and other public bodies, which is displayed on the Site. "
+"</p> <p> \"use\"  Doing any act with the Information that is restricted "
+"by copyright law, including copying, distributing, making available to "
+"the public, creating derivative works and any change as may be necessary "
+"technically to use it in a different state or in a different format, "
+"regardless of the medium in which the Information is embodied.</p> <p> "
+"\"value-added product\"  Any product, service or application you have "
+"produced by adapting or incorporating the Information, in whole or in "
+"part, in accordance with the terms of this License. </p> <p> \"you\"  "
+"Includes any natural person or legal entity or corporate body. </p> <p> "
+"In this License  the masculine gender includes the feminine. </p> "
+"<p><b><u> Use of Information under this License </u></b></p> <p> The "
+"Information is protected by intellectual property rights, including "
+"copyrights, which are owned by the State of Israel. <p> Use of the "
+"information indicates your acceptance of the terms of this License, to "
+"the extent that such acceptance is required by law.This License grants "
+"you a worldwide, royalty-free, perpetual and non-exclusive license to use"
+" the Information subject to the terms and conditions below. </p> <p> This"
+" License does not derogate from the uses permitted by law, including fair"
+" use as well as the use of facts and figures in and of themselves in a "
+"manner that does not infringe the protection of the selection, "
+"coordination and arrangement of the data. </p> <p><b><u> Permitted Uses "
+"</u></b></p> <p> You may copy the Information, distribute it, make it "
+"available to the public, broadcast it, make technical changes to it and "
+"create derivative works from it  in any medium or format. </p> <p> You "
+"may make commercial and noncommercial use of the Information. </p> "
+"<p><b><u> Prohibited Uses </u></b></p> <p> You may not make the following"
+" use of the Information: </p> <ol> \t<li> present the information in a "
+"misleading manner and/or in a manner causing a misrepresentation and/or "
+"modify the Information in a manner that distorts it and/or in a manner "
+"which is or could be prejudicial to the honor or reputation of the owner "
+"of the copyright therein;</li> \t<li>make use of the Information in a "
+"manner that breaches any law or statute;</li> \t<li>make use of the "
+"Information in a manner that infringes a person's privacy, including by "
+"cross-referencing the Information with other sources of information;</li>"
+" \t<li>present the information in a manner that gives the appearance "
+"that you may have received, or had access to, information held by the "
+"State of Israel about any identifiable person.</li> </ol> "
+"<p><b><u>Attribution of the Information</u></b></p> <p>When using the "
+"Information, you must cite its source.</p> <p>It should be noted that "
+"when using data extracted from the Information in a manner that does not "
+"preserve the original aspect of the selection or arrangement of the data "
+"in the source, there is no need to cite the source of the "
+"Information.</p> <p><b><u>Scope of this License</u></b></p> <p>This "
+"License does not apply to:</p> <ol> \t<li>Data on the personality, "
+"personal status, intimate affairs, state of health, economic condition, "
+"vocational qualifications, opinions and beliefs of a person, as well as "
+"information about a person's private affairs, all the above within the "
+"meaning of the Protection of Privacy Law, 5741-1981.</li> <li>Information"
+" forbidden for publication and/or access by law, or obtained illegally or"
+" without permission, including by circumventing technological means meant"
+" to protect it;</li> \t<li>logos of the State of Israel and any "
+"government ministry, support unit or other public body, except where they"
+" form an integral part of a document;</li> \t<li>third party rights in "
+"the Information which the Office is not permitted to make available to "
+"the public under this License;</li> \t<li>rights other than copyright, "
+"including other intellectual property rights such as patents, trademarks "
+"and designs, and including rights under the Protection of Privacy "
+"Law;</li> <li>Any technological means, including software and "
+"applications, by which the Site functions.</li> </ol> <p><b><u>Copyright "
+"in Added-Value Products </u></b></p> <p>Copyright in value-added products"
+" shall be owned by you or by anyone you designate. However, if "
+"information used under this License is incorporated in a value-added "
+"product, any copyright in that information shall belong to the State of "
+"Israel, and the use of such information shall be subject to this User "
+"License.</p> <p><b><u>No Endorsement or Sponsorship</u></b></p> <p>This "
+"License does not grant you any right to use the Information in a way that"
+" implies or suggests any official status of such use or that the State of"
+" Israel sponsors or endorses you or any third party or your or any third "
+"party's use of the Information or any value-added product.</p> "
+"<p><b><u>Representations and Disclaimer</u></b></p> <p>The Information is"
+" made available to you under this License \"as is,\" without any "
+"representation, warranty or undertaking, whether explicit or implied, in "
+"relation to the Information. It is hereby expressly declared that the "
+"State of Israel does not guarantee the suitability of the Information for"
+" your use, either directly or in value-added products.</p> <p>The State "
+"of Israel is not liable for any damage caused to you or to any third "
+"party as a direct or indirect result of any act or omission involved in "
+"the use of the Information. For purposes of this section, \"State of "
+"Israel\" includes the Office as well as employees, representatives and "
+"service providers of the State.</p> <p>Without limiting the generality of"
+" the foregoing, the State of Israel shall not be liable:</p> <ol> \t"
+"<li>for any error or omission in the Information, and it shall not be "
+"held liable for any loss, injury or damage of any kind, whether direct or"
+" indirect, caused by its use to you or to any third party;</li> <li>for "
+"changes made to the Information by you or by any third party;</li> \t"
+"<li>to third parties, pursuant to use of the Information;</li> \t<li>for"
+" any damage caused due to the use of software applications downloaded "
+"directly through the Site or activated as a result of the use of the "
+"Site, including Internet applications (e.g. Java, JavaScript, "
+"ActiveX).</li> </ol> <p>The State of Israel does not guarantee or "
+"undertake to ensure the continued supply of the Information or the "
+"continued supply thereof in a certain format.</p> <p>The State of Israel "
+"reserves the right to remove information from the Site at any time.</p> "
+"<p><b><u> Breach </u></b></p> <p>Breach by you of this License shall "
+"result in immediate termination. Conditions which by their nature survive"
+" the termination of the License, shall continue to apply, including "
+"conditions regarding attribution of the Information, representations and "
+"disclaimer.</p> <p><b><u> Official Publications of the State of Israel "
+"</u></b></p> <p> In the event of a conflict or inconsistency between the "
+"Information and information appearing in official written publications of"
+" the State of Israel, only the material contained in such official "
+"publications shall be deemed correct.</p> <p><b><u> Governing Law and "
+"Venue </u></b></p> <p> This License is subject to the laws and statutes "
+"of the State of Israel. The courts in Jerusalem have exclusive "
+"jurisdiction to consider any issue arising from the use of this License, "
+"including with respect to its violation. </p> <p><b><u> Miscellaneous "
+"</u></b></p> <p> No party to this License shall be deemed to have waived "
+"fulfillment or consented to the breach of any of its conditions, unless "
+"the consent or waiver are made in writing by the persons by law to bind "
+"that party. </p> <p> This License covers all the rights granted to you in"
+" relation to the Information on the Office Site, except for exclusions "
+"and limitations prescribed by law, including fair use. </p> <p>&nbsp; "
+"</p> <p>&nbsp; </p> <p>Version 1.0 </p> <p>January 3, 2016</p> "
+msgstr ""
+" <p><b><u>תנאי השימוש באתר Data.gov.il</u></b></p> <p> אתר אינטרנט זה "
+"(להלן: האתר) מנוהל ומתוחזק על ידי משרד ראש הממשלה, רשות התקשוב הממשלתי, "
+"יחידת ממשל זמין (להלן – המשרד). באתר מתפרסמים קבצי נתונים הלקוחים מתוך "
+"מאגרי מידע השייכים למשרדי ממשלה, יחידות סמך וגופים ציבוריים נוספים (להלן:"
+" מאגרי המידע). השימוש באתר כפוף לתנאי השימוש המופיעים באתר www.gov.il "
+"(להלן: תנאי השימוש). השימוש במאגרי המידע, כהגדרתם לעיל, אינו כפוף לתנאי "
+"השימוש, אלא לרישיון השימוש המובא להלן. ככל שלמאגר מידע מוצמד רישיון שימוש"
+" השונה מהרישיון המובא להלן, יגבר הרישיון המוצמד למאגר המידע. הנכם מוזמנים"
+" להשתמש במאגרי המידע בכל אופן בו אתם מוצאים לנכון, בכפוף לתנאי רישיון "
+"השימוש .</p><p><b><u>רישיון לשימוש במאגרי המידע באתר Data.gov.il "
+"</u></b></p> <p> השימוש במידע מותר אך ורק בהתאם לתנאי רישיון זה. המשרד "
+"רשאי לשנות את תנאי רישיון זה בכל עת, כאשר כל שינוי כזה ייכנס לתוקף מידית "
+"עם הצגתו באתר. השימוש במידע יהיה בכפוף לתנאי הרישיון שהיו בתוקף בתאריך "
+"ובשעה בהם נלקח המידע מהאתר. </p> <p><b>הגדרות</b></p> <p> ברישיון זה: "
+"\"האתר\" - אתר Data.gov.il \"מידע\" – קובץ נתונים או כל חלק ממנו, הלקוח "
+"מתוך מאגרי מידע השייכים למשרדי ממשלה, יחידות סמך וגופים ציבוריים נוספים, "
+"המתפרסמים באתר. \"שימוש\" – עשיית כל מעשה במידע המוגבל על ידי דיני זכויות"
+" יוצרים, לרבות העתקה, הפצה, העמדה לרשות הציבור, יצירת יצירות נגזרות "
+"ושינוי כפי שיהיה נחוץ מבחינה טכנית כדי להשתמש בו במצב שונה או בפורמט "
+"שונה, ללא קשר למדיום בו מצוי המידע. \"מוצר ערך מוסף\" – כל מוצר, שירות או"
+" יישום שנוצר על ידך ובו נעשה שימוש במידע על דרך התאמתו למוצר או הכללתו "
+"במוצר באופן מלא או חלקי, לפי תנאי רישיון זה. \"אתה\" - לרבות אדם או גוף "
+"משפטי או גוף מאוגד. ברישיון זה – לשון זכר משמעה גם לשון נקבה. </p> "
+"<p><b>שימוש במידע על פי רישיון זה</b></p> <p> המידע מוגן בזכויות קניין "
+"רוחני, לרבות זכויות יוצרים, המצויות בבעלות מדינת ישראל. השימוש במידע "
+"מהווה ההסכמה לתנאי רישיון זה, ככל שהסכמה זו נדרשת על פי דין. רישיון זה "
+"מעניק לך רישיון עולמי, ללא תמלוגים, בלתי מוגבל בזמן ולא בלעדי לשימוש "
+"במידע בכפוף לתנאים שלהלן. רישיון זה אינו גורע משימושים המותרים על פי חוק,"
+" לרבות הגנת השימוש ההוגן ולרבות שימוש בעובדות ובנתונים לכשעצמם, בדרך "
+"שאינה מפרה את ההגנה על בחירת הנתונים, הסדר והארגון שלהם. </p> "
+"<p><b>שימושים מותרים</b></p> <p> אתה רשאי להעתיק את המידע, להפיץ אותו, "
+"להעמיד אותו לרשות לציבור, לשדר אותו, לבצע שינויים טכניים במידע וליצור "
+"ממנו יצירות נגזרות -- בכל מדיום או פורמט. אתה רשאי לעשות שימוש במידע "
+"באופן מסחרי ובאופן שאינו מסחרי. </p> <p><b>שימושים אסורים</b></p> <p> "
+"אינך רשאי לעשות במידע את השימושים הבאים: </p> <ol> <li>להציג את המידע "
+"באופן מטעה ו/או באופן הגורם למצג שווא ו/או לשנות את המידע בדרך שתגרום "
+"לסילופו ו/או באופן הפוגע או העלול לפגוע בכבודו או בשמו של בעל זכויות "
+"היוצרים בו.</li> <li>לעשות שימוש במידע באופן המפר חוק או דין. </li> "
+"<li>לעשות שימוש שיביא לפגיעה בפרטיותו של אדם, לרבות על ידי הצלבת המידע עם"
+" מקורות מידע אחרים. </li> <li>להציג את המידע באופן הנותן את הרושם כאילו "
+"קיבלת מידע מזוהה, או שהייתה לך גישה למידע מזוהה, המוחזק בידי המדינה אודות"
+" אדם. </li> </ol> <p><b>ציון מקור המידע</b></p> <p> בשימוש במידע, עליך "
+"לציין את מקור המידע. יוער, כי אין צורך לציין את מקור המידע לפי סעיף זה "
+"אודות השימוש בנתונים שנשאבו מן המידע, כאשר השימוש בנתונים איננו שומר על "
+"המקוריות בבחירה ובסידור של הנתונים שבמקור. </p> <p> <b>היקף תחולת רישיון "
+"זה</b> </p> <p> רישיון זה אינו חל על: </p> <ol> <li>נתונים על אישיותו של "
+"אדם, מעמדו האישי, צנעת אישותו, מצב בריאותו, מצבו הכלכלי, הכשרתו המקצועית,"
+" דעותיו ואמונתו, וכן על ידיעות על ענייניו הפרטיים של אדם, כל אלה כמשמעם "
+"בחוק הגנת הפרטיות, התשמ\"א – 1981.</li> <li>מידע שפרסומו ו/או הגישה אליו "
+"אסורים לפי דין, או שהושג שלא כדין ו/או שלא ברשות, לרבות תוך עקיפת אמצעים "
+"טכנולוגיים האמורים להגן עליו;</li> <li>סמל המדינה, משרד יחידת סמך או גוף "
+"ציבורי אחר, למעט מקרים שבהם הם מהווים חלק בלתי נפרד ממסמך;</li> "
+"<li>זכויות צד שלישי במידע שהמשרד אינו רשאי להעמיד לרשות הציבור תחת "
+"לרישיון זה;</li> <li>זכויות שאינן זכות יוצרים, לרבות זכויות קניין רוחני "
+"אחרות, כגון פטנטים, סימני מסחר, ומדגמים, ולרבות זכויות לפי חוק הגנת "
+"הפרטיות.</li> <li>כל אמצעי טכנולוגי, לרבות תוכנות, יישומים ואפליקציות, "
+"שבאמצעותם פועל האתר. </li> </ol> <p><b>זכויות יוצרים במוצרי ערך "
+"מוסף</b></p> <p> זכויות יוצרים במוצרי ערך מוסף יהיו שייכות לך או למי שאתה"
+" מייעד אותן. אולם, זכויות היוצרים במידע שבו נעשה שימוש לפי רישיון זה, "
+"הכלול במוצר ערך מוסף, ככל שהן קיימות, יהיו שייכות למדינת ישראל, כאשר "
+"השימוש במידע יהיה בכפוף לרישיון שימוש זה. </p> <p><b>העדר גושפנקא או "
+"חסות</b></p> <p> רישיון זה אינו מקנה לך זכות להשתמש במידע באופן היוצר מצג"
+" או מרמז על כל מעמד רשמי בשימוש זה או על כך שהמדינה מעניקה חסות או נותנת "
+"גושפנקא לך, לצד שלישי, או לשימוש שאתה או צד שלישי עושים במידע או בכל מוצר"
+" ערך מוסף. </p> <p><b>מצגים והעדר אחריות</b></p> <p> המידע מועמד לרשותך "
+"על פי רישיון זה \"כמות שהוא\" (as is), ללא כל מצג, ערבות או התחייבות "
+"אודות המידע, בין באופן מפורש ובין במשתמע. מוצהר בזה באופן מפורש כי המדינה"
+" אינה ערבה להתאמתו של המידע לשימוש שאתה עושה בו, בין שימוש באופן ישיר "
+"ובין שימוש במוצרי ערך מוסף. המדינה אינה נושאת באחריות לכל נזק שייגרם לך "
+"או לכל צד ג' כתוצאה ישירה או עקיפה מכל מעשה או מחדל הנוגעים לשימוש במידע."
+" לעניין סעיף זה, \"מדינת ישראל\" משמע, לרבות המשרד, עובדי המדינה, נותני "
+"שירותים עבור המדינה ונציגיה. מבלי לגרוע מכלליות האמור, המדינה אינה נושאת "
+"באחריות: </p> <ol> <li>לכל טעות או השמטה במידע, ולא תהיה אחראית לכל "
+"אובדן, פציעה או נזק מכל סוג, בין ישיר ובין עקיף, שיגרמו לך או לכל צד ג' "
+"עקב השימוש בו. </li> <li>לשינויים שנעשו במידע על ידך או על ידי כל צד ג'. "
+"</li> <li>כלפי צד ג', הנובעת משימוש במידע. </li> <li>לכל נזק שנגרם עקב "
+"השימוש ביישומי תוכנה שהורדו ישירות באמצעות האתר או הופעלו כתוצאה מהשימוש "
+"באתר, לרבות יישומי אינטרנט (כגון -Java ,JavaScript , Active-X).</li> "
+"</ol> <p> המדינה אינה מבטיחה או מתחייבת להבטיח את המשך אספקת המידע או "
+"המשך אספקתו בפורמט מסוים. המדנה שומרת לעצמה את הזכות להוריד מידע מן האתר "
+"בכל עת. </p> <p><b>הפרה</b></p> <p> הפרת רישיון זה על ידך תביא לסיומו "
+"המיידי. תנאים שלפי טבעם ממשיכים להתקיים גם לאחר ביטול הרישיון ימשיכו "
+"לחול, לרבות תנאים אודות ציון מקור המידע ותנאים אודות מצגים והעדר אחריות. "
+"</p> <p><b>פרסומים רשמיים של מדינת ישראל</b></p> <p> במידה ותתגלה סתירה "
+"או אי-התאמה בין המידע לבין מידע המופיע בפרסומים הרשמיים בכתב של מדינת "
+"ישראל, רק החומר בפרסומים הרשמיים כאמור ייחשב כנכון. </p> <p><b>החוק הקובע"
+" ומקום שיפוט</b></p> <p> רישיון זה כפוף לחוקי ולדיני מדינת ישראל. בתי "
+"המשפט בירושלים הם בעלי הסמכות הבלעדית לדון בכל שאלה הנובעת מן השימוש "
+"ברישיון זה, לרבות בנוגע להפרתו. </p> <p><b>שונות</b></p> <p> צד לרישיון "
+"זה לא יחשב כמי שוויתר על קיום תנאי מתנאי הרישיון או כמי שהסכים לשינוי או "
+"הפרה של תנאי מתנאיו, אלא אם הוויתור או ההסכמה נעשו בכתב על ידי המורשים "
+"להתחייב על פי דין מטעם אותו צד. רישיון זה מכסה את כלל הזכויות המוענקות לך"
+" בנוגע למידע באתר המשרד, למעט החריגים ומגבלות הקבועים בדין, לרבות שימוש "
+"הוגן. </p> <p>&nbsp; </p> <p>&nbsp; </p> <p> גרסה 1.0 </p> <p> 3 בינואר "
+"2016 </p> ﻿ "
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:11
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:32
+#, fuzzy
+#| msgid "Manage"
+msgid "Name"
+msgstr "נהל"
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:11
+#, fuzzy
+#| msgid "My Organizations"
+msgid "My Organization"
+msgstr "הארגונים שלי"
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:19
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:28
+msgid "URL"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:19
+#, fuzzy
+#| msgid "Organization"
+msgid "my-organization"
+msgstr "ארגונים"
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:21
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:36
+msgid "Description"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:21
+msgid "A little information about my organization..."
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:36
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:49
+msgid "Custom Field"
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:61
+msgid ""
+"Are you sure you want to delete this Organization? This will delete all "
+"the public and private datasets belonging to this organization."
+msgstr ""
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:62
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:41
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:70
+#: ckanext/gov_theme/templates/user/edit_user_form.html:39
+#, fuzzy
+#| msgid "Deleted"
+msgid "Delete"
+msgstr "נמחק"
+
+#: ckanext/gov_theme/templates/organization/snippets/organization_form.html:65
+#, fuzzy
+#| msgid "Organization"
+msgid "Save Organization"
+msgstr "ארגונים"
+
+#: ckanext/gov_theme/templates/package/read_base.html:4
+msgid "Dataset"
+msgstr "מאגרי מידע"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:13
+msgid "Report"
+msgstr "דווח"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:14
+msgid "Broken link report"
+msgstr "דווח על קישור שבור"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:19
+#: ckanext/gov_theme/templates/package/resource_views.html:4
+msgid "View"
+msgstr "ראה"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:21
+msgid "API Endpoint"
+msgstr "API נקודות קצה"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:23
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:49
+msgid "Go to resource"
+msgstr "אל המקור"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:25
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:46
+msgid "Download"
+msgstr "הורד"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:58
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:26
+msgid "There are no views created for this resource yet."
+msgstr "לא נמצאה תצוגה מתאימה למשאב"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:59
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:27
+msgid "The resource can be downloaded by clicking on 'Link to file'."
+msgstr "ניתן להוריד את המשאב על ידי לחיצה על קישור למאגר"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:64
+msgid "Not seeing the views you were expecting?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:66
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:30
+msgid "Click here for more information."
+msgstr "לחץ כאן למידע נוסף"
+
+#: ckanext/gov_theme/templates/package/resource_read.html:69
+msgid "Here are some reasons you may not be seeing expected views:"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:71
+msgid "No view has been created that is suitable for this resource"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:72
+msgid "The site administrators may not have enabled the relevant view plugins"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:73
+msgid ""
+"If a view requires the DataStore, the DataStore plugin may not be "
+"enabled, or the data may not have been pushed to the DataStore, or the "
+"DataStore hasn't finished processing the data yet"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/resource_read.html:85
+msgid "Link to file"
+msgstr "קישור למאגר"
+
+#: ckanext/gov_theme/templates/package/resource_views.html:10
+msgid "New view"
+msgstr "תצוגה חדשה"
+
+#: ckanext/gov_theme/templates/package/resource_views.html:28
+msgid "This resource has no views"
+msgstr "אין תצוגות למשאב"
+
+#: ckanext/gov_theme/templates/package/search.html:16
+msgid "Add Dataset"
+msgstr "מאגרי מידע"
+
+#: ckanext/gov_theme/templates/package/search.html:29
+msgid "Relevance"
+msgstr "רלוונטיות"
+
+#: ckanext/gov_theme/templates/package/search.html:30
+#: ckanext/gov_theme/templates/snippets/search_form.html:4
+msgid "Name Ascending"
+msgstr "שם עולה"
+
+#: ckanext/gov_theme/templates/package/search.html:31
+#: ckanext/gov_theme/templates/snippets/search_form.html:4
+msgid "Name Descending"
+msgstr "שם יורד"
+
+#: ckanext/gov_theme/templates/package/search.html:32
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:55
+msgid "Last Modified"
+msgstr "השתנה לאחרונה"
+
+#: ckanext/gov_theme/templates/package/search.html:33
+msgid "Popular"
+msgstr "תגיות פופולאריות"
+
+#: ckanext/gov_theme/templates/package/search.html:52
+msgid "API"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:53
+msgid "API Docs"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:55
+msgid "full {format} dump"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:56
+#, python-format
+msgid ""
+" You can also access this registry using the API (see %(api_doc_link)s) "
+"or download a %(dump_link)s. "
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/search.html:60
+#, python-format
+msgid " You can also access this registry using the API (see %(api_doc_link)s). "
+msgstr "ניתן לגשת לרישום זה באמצעות ה-API (ראה %(api_doc_link)s)."
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:2
+msgid "Additional Info"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:6
+msgid "Field"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:7
+msgid "Value"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:14
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:6
+msgid "Source"
+msgstr "אל המקור"
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:25
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:30
+msgid "Author"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:37
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:42
+msgid "Maintainer"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:49
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:10
+msgid "Version"
+msgstr "גרסה"
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:56
+#: ckanext/gov_theme/templates/user/read_base.html:93
+msgid "State"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:62
+msgid "Last Updated"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/additional_info.html:70
+msgid "Created"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/info.html:27
+#: ckanext/gov_theme/templates/snippets/organization.html:40
+#: ckanext/gov_theme/templates/user/read_base.html:51
+msgid "Followers"
+msgstr "עוקבים"
+
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:29
+msgid ""
+"The <i>data license</i> you select above only applies to the contents of "
+"any resource files that you add to this dataset. By submitting this form,"
+" you agree to release the <i>metadata</i> values that you enter into the "
+"form under the <a "
+"href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open Database "
+"License</a>."
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:40
+msgid "Are you sure you want to delete this dataset?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_form.html:45
+msgid "Next: Add Data"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:6
+msgid "http://example.com/dataset.json"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:10
+msgid "1.0"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:14
+msgid "Author Email"
+msgstr "אימייל מחבר"
+
+#: ckanext/gov_theme/templates/package/snippets/package_metadata_fields.html:14
+#: ckanext/gov_theme/templates/user/new_user_form.html:8
+msgid "joe@example.com"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:28
+msgid "File"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:32
+msgid "eg. January 2011 Gold Prices"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:36
+msgid "Some useful notes about the data"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:41
+msgid "Format"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:41
+msgid "eg. CSV, XML or JSON"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:44
+msgid "This will be guessed automatically. Leave blank if you wish"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:55
+msgid "eg. 2012-06-05"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:57
+msgid "File Size"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:57
+msgid "eg. 1024"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:59
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:61
+msgid "MIME Type"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:59
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:61
+msgid "eg. application/json"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:69
+msgid "Are you sure you want to delete this resource?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:76
+msgid "Previous"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:79
+msgid "Save & add another"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:82
+msgid "Finish"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_form.html:86
+msgid "Add"
+msgstr ""
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:24
+msgid "Explore"
+msgstr "דווח"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:33
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:36
+msgid "More information"
+msgstr "מידע נוסף"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_item.html:58
+msgid "Edit"
+msgstr "ערוך"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:11
+msgid "Embed"
+msgstr "הטמע"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:25
+msgid "This resource view is not available at the moment."
+msgstr "המשאב אינו נמצא כרגע"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:38
+msgid "Download resource"
+msgstr "אל המקור"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:61
+msgid "Your browser does not support iframes."
+msgstr "הדפדפן אינו תומך ב IFRAMES"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:68
+msgid "Embed resource view"
+msgstr "הטמע משאב"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:71
+msgid ""
+"You can copy and paste the embed code into a CMS or blog software that "
+"supports raw HTML"
+msgstr "ניתן להעתיק את הקוד לתוך CMS או בלוג התומך ב HTML"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:74
+msgid "Width"
+msgstr "רוחב"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:77
+msgid "Height"
+msgstr "גובה"
+
+#: ckanext/gov_theme/templates/package/snippets/resource_view.html:80
+msgid "Code"
+msgstr "קוד"
+
+#: ckanext/gov_theme/templates/snippets/facet_list.html:80
+msgid "Show More {facet_type}"
+msgstr "הצג עוד {facet_type}"
+
+#: ckanext/gov_theme/templates/snippets/facet_list.html:83
+msgid "Show Only Popular {facet_type}"
+msgstr "הצג {facet_type} פופולארים"
+
+#: ckanext/gov_theme/templates/snippets/facet_list.html:87
+msgid "There are no {facet_type} that match this search"
+msgstr "לא נמצא {facet_type} מתאים לחיפוש"
+
+#: ckanext/gov_theme/templates/snippets/follow_button.html:11
+msgid "Unfollow"
+msgstr "הורד מעקב"
+
+#: ckanext/gov_theme/templates/snippets/follow_button.html:16
+msgid "Follow"
+msgstr "עקוב"
+
+#: ckanext/gov_theme/templates/snippets/organization.html:6
+msgid "Organization"
+msgstr "ארגונים"
+
+#: ckanext/gov_theme/templates/snippets/organization.html:20
+msgid "Deleted"
+msgstr "נמחק"
+
+#: ckanext/gov_theme/templates/snippets/organization.html:28
+msgid "read more"
+msgstr "קרא עוד"
+
+#: ckanext/gov_theme/templates/snippets/organization.html:31
+msgid "There is no description for this organization"
+msgstr "לא נמצא תיאור לארגון"
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:3
+#, fuzzy
+msgid "Search datasets..."
+msgstr "מאגרי מידע"
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:18
+msgid "Submit"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:33
+msgid "Order by"
+msgstr "סדר לפי"
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:42
+msgid "Go"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:67
+#, fuzzy
+msgid "Remove"
+msgstr "קרא עוד"
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:72
+msgid "Filter Results"
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:79
+msgid " <p class=\"extra\">Please try another search.</p> "
+msgstr " <p class=\"extra\">אנא נסו חיפוש נוסף.</p> "
+
+#: ckanext/gov_theme/templates/snippets/search_form.html:85
+msgid ""
+" <p><strong>There was an error while searching.</strong> Please try "
+"again.</p> "
+msgstr ""
+
+#: ckanext/gov_theme/templates/snippets/social.html:5
+msgid "Social"
+msgstr "קישורים חברתיים"
+
+#: ckanext/gov_theme/templates/user/dashboard.html:9
+msgid "News feed"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/dashboard.html:10
+msgid "My Datasets"
+msgstr "מאגרי מידע"
+
+#: ckanext/gov_theme/templates/user/dashboard.html:11
+msgid "My Organizations"
+msgstr "הארגונים שלי"
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:8
+msgid "Change details"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:9
+#: ckanext/gov_theme/templates/user/new_user_form.html:6
+#: ckanext/gov_theme/templates/user/read_base.html:78
+msgid "Username"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:11
+msgid "Full name"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:11
+msgid "eg. Joe Bloggs"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:13
+#: ckanext/gov_theme/templates/user/new_user_form.html:8
+#: ckanext/gov_theme/templates/user/read_base.html:84
+msgid "Email"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:13
+msgid "eg. joe@example.com"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:15
+msgid "A little information about yourself"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:18
+msgid "Subscribe to notification emails"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:27
+msgid "Change password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:28
+#, fuzzy
+#| msgid "Forgot your password?"
+msgid "Old Password"
+msgstr "שכחת את סיסמתך?"
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:30
+#: ckanext/gov_theme/templates/user/new_user_form.html:9
+msgid "Password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:32
+msgid "Confirm Password"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:38
+msgid "Are you sure you want to delete this User?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:44
+msgid "Are you sure you want to regenerate the API key?"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:45
+msgid "Regenerate API Key"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/edit_user_form.html:49
+#, fuzzy
+#| msgid "View profile"
+msgid "Update Profile"
+msgstr "הצג פרופיל"
+
+#: ckanext/gov_theme/templates/user/login.html:9
+msgid "Forgotten your password?"
+msgstr "שכחת את סיסמתך?"
+
+#: ckanext/gov_theme/templates/user/login.html:11
+msgid "No problem, use our password recovery form to reset it."
+msgstr "אין בעיה, השתמש בטופס שחזור הסיסמא כדי לאפס אותו"
+
+#: ckanext/gov_theme/templates/user/login.html:14
+msgid "Forgot your password?"
+msgstr "שכחת את סיסמתך?"
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:6
+msgid "username"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:7
+msgid "Full Name"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:7
+msgid "Joe Bloggs"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:10
+msgid "Confirm"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/new_user_form.html:18
+msgid "Create Account"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:5
+#: ckanext/gov_theme/templates/user/read_base.html:8
+#, fuzzy
+msgid "Users"
+msgstr "תנאי שימוש"
+
+#: ckanext/gov_theme/templates/user/read_base.html:41
+msgid "You have not provided a biography."
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:43
+msgid "This user has no biography."
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:59
+msgid "Edits"
+msgstr "ערוך"
+
+#: ckanext/gov_theme/templates/user/read_base.html:75
+msgid "Open ID"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:84
+#: ckanext/gov_theme/templates/user/read_base.html:98
+msgid "This means only you can see this"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:84
+#: ckanext/gov_theme/templates/user/read_base.html:98
+msgid "Private"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:89
+msgid "Member Since"
+msgstr ""
+
+#: ckanext/gov_theme/templates/user/read_base.html:98
+msgid "API Key"
+msgstr ""
+

@@ -1,0 +1,90 @@
+{% ckan_extends %}
+
+
+{% block resource_actions %}
+          <ul>
+            {% block resource_actions_inner %}
+
+
+            {% if h.check_access('package_update', {'id':pkg.id }) %}
+              <li>{% link_for _('Manage'), controller='package', action='resource_edit', id=pkg.name, resource_id=res.id, class_='btn', icon='wrench' %}</li>
+            {% endif %}
+                {% set current_lang = request.environ.CKAN_LANG %}
+              <li><a class="btn btn-primary" href="/{{ current_lang }}/report">{{ _('Report') }}</a></li>
+              <li><a class="btn btn-primary" href="/{{ current_lang }}/report?form=link">{{ _('Broken link report') }}</a></li>
+            {% if res.url %}
+              <li>
+                <a class="btn btn-primary resource-url-analytics resource-type-{{ res.resource_type }}" href="{{ res.url }}">
+                  {% if res.resource_type in ('listing', 'service') %}
+                    <i class="icon-eye-open"></i> {{ _('View') }}
+                  {% elif  res.resource_type == 'api' %}
+                    <i class="icon-key"></i> {{ _('API Endpoint') }}
+                  {% elif not res.has_views or not res.can_be_previewed %}
+                    <i class="icon-external-link"></i> {{ _('Go to resource') }}
+                  {% else %}
+                    <i class="icon-download"></i> {{ _('Download') }}
+                  {% endif %}
+                </a>
+              </li>
+            {% endif %}
+            {% if 'datastore' in g.plugins %}
+              <li>{% snippet 'package/snippets/data_api_button.html', resource=res, datastore_root_url=c.datastore_api %}</li>
+            {% endif %}
+            {% endblock %}
+          </ul>
+{% endblock %}
+{% block resource_view_content %}
+            <div class="resource-view">
+              {% set resource_preview = h.resource_preview(c.resource, c.package) %}
+              {% set views_created = res.has_views or resource_preview %}
+              {% set is_local_resource = res.is_local_resource %}
+              {% if views_created and is_local_resource %}
+                {% if resource_preview and not current_resource_view %}
+                  {{ h.resource_preview(c.resource, c.package) }}
+                {% else %}
+                  {% for resource_view in resource_views %}
+                    {% if resource_view == current_resource_view %}
+                    
+                      {% snippet 'package/snippets/resource_view.html',
+                         resource_view=resource_view,
+                         resource=c.resource,
+                         package=c.package
+                       %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% else %}
+                {# Views not created #}
+                <div class="module-content data-viewer-info">
+                  <p>{{ _("There are no views created for this resource yet.") }}</p>
+                  <p>{{ _("The resource can be downloaded by clicking on 'Link to file'.") }}<p>
+                {% if h.is_back_site() %}
+                  {% if h.check_access('resource_view_create', {'resource_id': c.resource.id}) %}
+                    <p class="muted">
+                      <i class="icon-info-sign"></i>
+                      {{ _("Not seeing the views you were expecting?")}}
+                      <a href="javascript:void(0);" data-toggle="collapse" data-target="#data-view-info">
+                        {{ _('Click here for more information.') }}</a>
+                    </p>
+                    <div id="data-view-info" class="collapse">
+                      <p>{{ _('Here are some reasons you may not be seeing expected views:') }}</p>
+                      <ul>
+                        <li>{{ _("No view has been created that is suitable for this resource")}}</li>
+                        <li>{{ _("The site administrators may not have enabled the relevant view plugins")}}</li>
+                        <li>{{ _("If a view requires the DataStore, the DataStore plugin may not be enabled, or the data may not have been pushed to the DataStore, or the DataStore hasn't finished processing the data yet")}}</li>
+                      </ul>
+                    </div>
+                  {% endif %}
+                {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          {% endblock %}
+
+{% block resource_read_url %}
+            {% if res.url  %}
+              <p class="muted ellipsis"> <a class="btn btn-primary" href="{{ res.url }}" title="{{ res.url }}"  target="_blank">{{ _('Link to file') }}</a></p>
+            {% endif %}
+ {% endblock %}
+
+

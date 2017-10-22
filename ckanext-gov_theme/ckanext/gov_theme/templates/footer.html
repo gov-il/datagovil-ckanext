@@ -1,0 +1,54 @@
+{% ckan_extends %}
+
+<footer class="site-footer">
+    <div class="container">
+    {% block footer_content %}
+    <div class="row-fluid">     
+      <div class="span12 footer-links">
+        {% block footer_nav %}
+          <ul class="unstyled">
+                {% block footer_links_ckan %}
+                  {% set current_lang = request.environ.CKAN_LANG %}
+                  <li class="pull-left"><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About Gvoernment Data').format(g.site_title) }}</a></li>
+                  <li class="pull-left"><a href="{{ h.url_for(controller='home', action='terms') }}">{{ _('Terms Of Use').format(g.site_title) }}</a></li>
+                  <li class="pull-left"><a href="/{{ current_lang }}/contact">{{ _('Contact') }}</a></li>
+                  <li class="pull-left"><a href="/{{ current_lang }}/contact?form=data_request">{{ _('Request Dataset').format(g.site_title) }}</a></li>
+                {% endblock %}
+          </ul>
+        {% endblock %}
+
+      </div>
+
+             <script>
+
+             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+             ga('create', 'UA-73172242-1', 'auto');
+             {% if c.organization_id %}ga('create', {{ c.organization_id }}, 'auto', {'name': 'officeTracker'});  // office tracker.
+             ga('officeTracker.send', 'pageview');  {% endif %} // Send page view for office tracker.
+             ga('send', 'pageview');
+             </script>
+
+
+    </div>
+    {% endblock %}
+  </div>
+
+ 
+
+  
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+

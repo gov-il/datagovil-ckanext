@@ -1,0 +1,25 @@
+
+{% if dataset_count == 0 %}
+    <p>We do not currently have usage data for {{publisher.title}}</p>
+{% else %}
+
+
+    <div class="popular_datasets">
+        <ul>
+            {% for dataset,views,visits in datasets %}
+                <li>
+                    {{h.link_to(dataset.title, h.url_for(controller='package', action='read', id=dataset.name))}}
+                </li>
+            {% endfor %}
+        </ul>
+      <p>
+        <a href="{{h.url_for(controller='ckanext.ga_report.controller:GaDatasetReport',action='read_publisher',id=publisher.name)}}">
+          {% if preview_image %}
+          <img src="{{preview_image}}" />{% endif %}<br/>
+          More usage data for {{publisher.title}}
+        </a>
+      </p>
+     </div>
+
+{% endif %}
+
